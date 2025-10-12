@@ -1,4 +1,4 @@
-//this is the linux version oof the code
+//this is the linux version of the code
 #include<iostream>
 #include<fstream>
 #include<string>
@@ -87,6 +87,7 @@ cout<<"**You have deleted all your tasks**"<<endl;
 cout<<"To check available commands type: 0 "<<endl;}
     break;
     case '4':
+    system("clear") 
 close = 1;
     break;
     default:
