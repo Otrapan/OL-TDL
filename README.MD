@@ -1,2 +1,3 @@
-No info in here, open the .exe file for more info"# OL-TDL" 
+OL-TDL is a terminal based To-do list program available for windows and linux based operating systems
+
 "# OL-TDL" 
