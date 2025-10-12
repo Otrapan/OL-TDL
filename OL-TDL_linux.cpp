@@ -8,7 +8,7 @@ using namespace std;
 
 int main () {
     
-    system("color 2");
+    
     string input;
     string carrot[65];
     int car = 65;
@@ -20,7 +20,7 @@ fstream File;
 int lines = 0;
 char i;
 int x;
- system("cls");
+ system("clear");
  cout<<"**Welcome to otrapan's lightweight To-do list**"<<endl;
 cout<<"To check available commands type: 5 "<<endl<<endl;
 cout<<"Tasks:"<<endl;
@@ -40,7 +40,7 @@ cout<<"$";cin>>command;
 switch (command)
 {
 case '5':
- system("cls");
+ system("clear");
 cout<<"Help comand:"<<endl;
 cout<<"Type 1 to add a new task"<<endl;
 cout<<"Type 2 to delete all tasks"<<endl;
@@ -51,7 +51,7 @@ cout<<"A special thanks to pookies:"<<endl<<"just_tax"<<endl<<"spyros_21_"<<endl
 cout<<"Thanks"<<endl;
 break;
     case '1':
-     system("cls");
+     system("clear");
      cout<<"Type task name"<<endl;
    cin.ignore();
     getline(cin,input);
@@ -60,7 +60,7 @@ if (File.is_open()){
     File<<input<<endl;
     File.close();
 }
- system("cls");
+ system("clear");
  cout<<"tasks:"<<endl;
 File.open("List.txt",ios::in);//read
 if (File.is_open()){
@@ -73,7 +73,7 @@ if (File.is_open()){
 
     break;
     case '2':
-    system("cls");
+    system("clear");
     cout<<"Are you sure you want to erase all your tasks?(y/n)"<<endl;
     cin>>i;
     if (i == 'y'){
@@ -82,7 +82,7 @@ if (File.is_open()){
     File<<"";
     File.close();
 }
-system("cls");
+system("clear");
 cout<<"**You have deleted all your tasks**"<<endl;
 cout<<"To check available commands type: 0 "<<endl;}
     break;
@@ -90,7 +90,7 @@ cout<<"To check available commands type: 0 "<<endl;}
 close = 1;
     break;
     default:
-    system("cls");
+    system("clear");
 cout<<"Invalid command"<<endl<<"Tasks:"<<endl;
 File.open("List.txt",ios::in);//read
 if (File.is_open()){
@@ -103,7 +103,7 @@ if (File.is_open()){
     break;
     case '3':
     bbc = 0;
-    system("cls");
+    system("clear");
     cout<<"tasks:"<<endl;
     lines = 0;
    File.open("List.txt");
@@ -140,7 +140,7 @@ if (File.is_open()){
 }
      }
      
-     system("cls");
+     system("clear");
      cout<<"Tasks:"<<endl;
      File.open("List.txt",ios::in);//read
 if (File.is_open()){
