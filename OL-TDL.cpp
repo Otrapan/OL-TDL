@@ -87,6 +87,7 @@ cout<<"**You have deleted all your tasks**"<<endl;
 cout<<"To check available commands type: 0 "<<endl;}
     break;
     case '4':
+    system("exit");
     system("cls");
 close = 1;
     break;
