@@ -46,7 +46,7 @@ cout<<"Type 1 to add a new task"<<endl;
 cout<<"Type 2 to delete all tasks"<<endl;
 cout<<"Type 3 to erase only 1 task"<<endl;
 cout<<"Type 4 to exit OL-TDL"<<endl;
-cout<<"Github:"<<endl;
+cout<<"Github:https://github.com/Otrapan/OL-TDL"<<endl;
 cout<<"A special thanks to pookies:"<<endl<<"just_tax"<<endl<<"spyros_21_"<<endl;
 cout<<"Thanks"<<endl;
 break;
