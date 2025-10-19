@@ -104,6 +104,8 @@ if (File.is_open()){
 }
     break;
     case '3':
+    armani = 0;
+    lines = 0;
     bbc = 0;
     system("cls");
     cout<<"tasks:"<<endl;
